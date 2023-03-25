@@ -9,3 +9,22 @@
 </div>
 
 <p align = "center">Froggodoro is a new way to be productive, have fun, and collect frogs! Stay tuned for updates and more! 🐸🍅 </p>
+
+## Early Development
+
+- 🍅 Pomodoro features 🍅
+  - Basic functionality
+  - Personalization of working and break cycles
+  - Produtivity
+    - Task List
+  - Time cycles
+- 🐸 Frog features 🐸
+  - Link time cycles to frog development
+  - Different frogs
+  - Collectibles
+  - Frog adoption certificate
+- Website features
+  - Design
+  - User authentication
+  - Database
+    
