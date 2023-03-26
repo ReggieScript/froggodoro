@@ -1,6 +1,8 @@
-const sessionTime = 1 * 60;
-let pomodoroTime = 1 * 60; // 25 minutes in seconds
-const breakTime = 5 * 60; // 5 minutes in seconds
+const focus_time = document.querySelector('#focus_time').value;
+const break_time = document.querySelector('#break_time').value;
+const sessionTime = focus_time * 60;
+let pomodoroTime = sessionTime; // 25 minutes in seconds
+const breakTime =  break_time * 0; // 5 minutes in seconds
 let timer = null;
 let isBreak = false;
 

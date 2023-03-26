@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+
+{%block styles%}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}Froggodoro{% endblock %}
+
+{% block content %}
+
+    <div>
+        <form action="" method="POST">
+            <h1>How long do you want to work for?</h1>
+            <input class="quantity" name = "focus_time" id="id_form-0-quantity" min="20" max = "30" value="25" type="number">
+            <h1>How long do you want to rest for?</h1>
+            <input class="quantity" name = "break_time" id="id_form-0-quantity" min="3" max = "10" value="5" type="number">
+            <br>
+            <button type="submit">Let's get started</button>
+        </form>
+    </div>
+
+{% endblock %}
