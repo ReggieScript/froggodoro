@@ -1,11 +1,6 @@
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import Table, Column, Integer, String, MetaData, URL
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, IntegerField
-from wtforms.validators import DataRequired
-import requests
 
 app = Flask(__name__)
 
