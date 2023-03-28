@@ -6,7 +6,6 @@ app = Flask(__name__)
 
 Bootstrap(app)
 
-
 @app.route('/', methods=['GET', 'POST'])
 def loadup():
     if request.method == 'POST':
